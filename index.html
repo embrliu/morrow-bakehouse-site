@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f2e9" />
+    <meta name="description" content="Naturally leavened sourdough, flaky pastries, and seasonal treats made by hand at Morrow Bakehouse." />
+    <title>Morrow Bakehouse — A slower kind of morning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement">
+      <span class="announcement-dot" aria-hidden="true"></span>
+      <p>Warm bread, good company, every morning.</p>
+      <a href="#menu">See what’s in the oven</a>
+    </div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Morrow Bakehouse home">
+        <svg class="wordmark-mark" viewBox="0 0 42 42" role="img" aria-label="Sunrise mark">
+          <path d="M7 27.5h28M11 22a10 10 0 0 1 20 0M21 6v4M8.8 12.8l2.9 2.9m21.5-2.9-2.9 2.9M5 20h4m24 0h4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.2" />
+          <path d="M10 33h22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.2" />
+        </svg>
+        <span class="wordmark-text">morrow<span>bakehouse</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Open menu</span>
+        <span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#menu">The menu</a>
+        <a href="#story">Our way</a>
+        <a href="#visit">Find us</a>
+        <a class="button button-small" href="#menu">Browse bakes <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-rule"></span> Your neighborhood bakehouse</p>
+          <h1 id="hero-title">A slower<br />kind of <em>morning.</em></h1>
+          <p class="hero-description">Naturally leavened sourdough, flaky pastries, and seasonal little treats—made by hand and pulled from the oven each morning.</p>
+          <div class="hero-actions">
+            <a class="button" href="#menu">Explore the menu <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#visit">Come say hello <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note">
+            <div class="note-stars" aria-hidden="true">✳ ✳ ✳</div>
+            <p>Made slowly.<br /><strong>Shared gladly.</strong></p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Freshly baked artisan bread" data-reveal>
+          <div class="hero-image-wrap">
+            <img class="hero-image" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Golden crusty loaves of artisan bread" fetchpriority="high" />
+          </div>
+          <div class="sun-stamp" aria-label="Good things take time">
+            <span class="stamp-top">GOOD THINGS</span>
+            <span class="stamp-sun" aria-hidden="true">✳</span>
+            <span class="stamp-bottom">TAKE TIME</span>
+          </div>
+          <div class="image-caption"><span class="caption-line"></span> A little something for the table</div>
+          <div class="crumb-doodle" aria-hidden="true">✳</div>
+        </div>
+      </section>
+
+      <section class="promise-bar" aria-label="What makes Morrow special">
+        <div class="promise-inner">
+          <span>Long-fermented dough</span><i aria-hidden="true">✳</i>
+          <span>Small-batch baking</span><i aria-hidden="true">✳</i>
+          <span>Seasonal ingredients</span><i aria-hidden="true">✳</i>
+          <span>Made to be shared</span>
+        </div>
+      </section>
+
+      <section class="menu-section section-shell" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-rule"></span> A few favorites</p>
+            <h2 id="menu-title">From our oven,<br /><em>with love.</em></h2>
+          </div>
+          <p class="heading-aside">A little menu to start. The best thing in the case is usually whatever just came out of the oven.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card product-card-large" data-reveal>
+            <a class="product-image" href="#visit" aria-label="Ask about today's sourdough">
+              <img src="https://images.unsplash.com/photo-1767065888005-cdbfcb4619c3?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Close-up of a rustic sourdough loaf with a golden crust" loading="lazy" />
+              <span class="product-number">01</span>
+            </a>
+            <div class="product-info"><div><h3>The everyday sourdough</h3><p>Crackly crust, soft center, a little tang.</p></div><span class="product-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="product-card" data-reveal>
+            <a class="product-image" href="#visit" aria-label="Ask about today's morning buns">
+              <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Flaky golden pastries fresh from the oven" loading="lazy" />
+              <span class="product-number">02</span>
+            </a>
+            <div class="product-info"><div><h3>Morning buns</h3><p>Buttery layers with a cinnamon-sugar finish.</p></div><span class="product-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="product-card" data-reveal>
+            <a class="product-image" href="#visit" aria-label="Ask about seasonal bakes">
+              <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A small seasonal cake topped with fresh fruit" loading="lazy" />
+              <span class="product-number">03</span>
+            </a>
+            <div class="product-info"><div><h3>Something seasonal</h3><p>One good idea, changing with the market.</p></div><span class="product-arrow" aria-hidden="true">↗</span></div>
+          </article>
+        </div>
+        <div class="menu-footer"><span>Our counter changes with the seasons.</span><a class="text-link" href="#visit">Ask what’s fresh today <span aria-hidden="true">→</span></a></div>
+      </section>
+
+      <section class="story-section" id="story" aria-labelledby="story-title">
+        <div class="story-image" data-reveal>
+          <img src="https://images.unsplash.com/photo-1649675602947-81a41c1ba4af?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="A baker's hands kneading dough on a flour-dusted workbench" loading="lazy" />
+          <span class="story-image-label">Hands in the dough, heart in the work.</span>
+        </div>
+        <div class="story-copy" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-rule"></span> The Morrow way</p>
+          <h2 id="story-title">Good bread<br />takes <em>its time.</em></h2>
+          <p>We believe the best mornings start with the simple things: good flour, patient hands, and something warm to pass around. So we keep our batches small, our ingredients thoughtful, and our door open to everyone.</p>
+          <a class="text-link" href="#visit">A little more about us <span aria-hidden="true">→</span></a>
+          <div class="story-seal" aria-hidden="true"><span>BAKED WITH<br />A LITTLE<br />MORE HEART</span><b>✳</b></div>
+        </div>
+      </section>
+
+      <section class="visit-section section-shell" id="visit" aria-labelledby="visit-title">
+        <div class="visit-intro" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-rule"></span> Pull up a chair</p>
+          <h2 id="visit-title">Your morning<br />looks good <em>from here.</em></h2>
+          <p>Stop in for a loaf, stay for a coffee, or take something sweet along for the walk. We’ll save a little warmth for you.</p>
+          <a class="button" href="#visit-details">Plan your visit <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="visit-card" id="visit-details" data-reveal>
+          <div class="visit-card-top">
+            <span class="visit-icon" aria-hidden="true">✳</span>
+            <p>Come by<br /><em>when it’s warm.</em></p>
+          </div>
+          <div class="visit-detail"><span>Find us</span><strong>Add your street address</strong></div>
+          <div class="visit-detail"><span>Opening hours</span><strong>Add your weekly hours</strong></div>
+          <p class="visit-link">Add your map link <span aria-hidden="true">↗</span></p>
+        </div>
+        <div class="visit-decoration" aria-hidden="true">☼</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#top" aria-label="Morrow Bakehouse home">
+        <svg class="wordmark-mark" viewBox="0 0 42 42" aria-hidden="true"><path d="M7 27.5h28M11 22a10 10 0 0 1 20 0M21 6v4M8.8 12.8l2.9 2.9m21.5-2.9-2.9 2.9M5 20h4m24 0h4M10 33h22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.2" /></svg>
+        <span class="wordmark-text">morrow<span>bakehouse</span></span>
+      </a>
+      <p>Good things are worth getting up for.</p>
+      <a class="back-top" href="#top">Back to top ↑</a>
+    </footer>
+
+    <script>
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.primary-nav');
+      toggle.addEventListener('click', () => {
+        const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        toggle.querySelector('.sr-only').textContent = isOpen ? 'Open menu' : 'Close menu';
+        nav.classList.toggle('is-open', !isOpen);
+      });
+      nav.addEventListener('click', (event) => {
+        if (event.target.closest('a')) {
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.querySelector('.sr-only').textContent = 'Open menu';
+          nav.classList.remove('is-open');
+        }
+      });
+
+      const revealItems = document.querySelectorAll('[data-reveal]');
+      if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.documentElement.classList.add('has-reveal');
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.14, rootMargin: '0px 0px -36px 0px' });
+        revealItems.forEach((item, index) => {
+          item.style.setProperty('--reveal-delay', `${(index % 3) * 90}ms`);
+          revealObserver.observe(item);
+        });
+      } else {
+        revealItems.forEach((item) => item.classList.add('is-visible'));
+      }
+    </script>
+  </body>
+</html>
